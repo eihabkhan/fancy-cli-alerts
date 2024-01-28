@@ -1,0 +1,24 @@
+{
+  "name": "fancy-cli-alerts",
+  "version": "0.0.1-beta.1",
+  "description": "Fancy Alerts for your CLI application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eihabkhan/fancy-cli-alerts.git"
+  },
+  "keywords": [
+    "alerts",
+    "cli",
+    "fancy"
+  ],
+  "author": "Eihab Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eihabkhan/fancy-cli-alerts/issues"
+  },
+  "homepage": "https://github.com/eihabkhan/fancy-cli-alerts#readme"
+}
