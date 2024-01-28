@@ -3,8 +3,12 @@
   "version": "0.0.1-beta.1",
   "description": "Fancy Alerts for your CLI application",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "init": "./index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +20,16 @@
     "fancy"
   ],
   "author": "Eihab Khan",
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/eihabkhan/fancy-cli-alerts/issues"
   },
-  "homepage": "https://github.com/eihabkhan/fancy-cli-alerts#readme"
+  "homepage": "https://github.com/eihabkhan/fancy-cli-alerts#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "log-symbols": "^6.0.0"
+  }
 }
